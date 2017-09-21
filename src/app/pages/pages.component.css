@@ -1,0 +1,13 @@
+.pages {
+    margin: 0 0 20px;
+    padding: 20px 10px;
+    list-style-position: inside;
+    background: #eee;
+    border-radius: 8px;
+}
+
+.pages li a:hover,
+.pages li a:focus {
+    text-decoration: underline;
+    cursor: pointer;
+}

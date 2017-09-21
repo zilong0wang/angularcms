@@ -1,0 +1,21 @@
+<div class="row cms-wrapper">
+    <div class="col-md-4 left-content">
+        <div class="sidebar">
+            <page-list></page-list>
+        </div>
+    </div>
+    <div class="col-md-8 right-content">
+        <div class="main">
+            <div *ngIf="router.url === '/dashboard'">
+                <div *ngIf="cs.config['isLogin']">
+                    <h2>{{title}}</h2>
+                    <p>You can now create new pages.</p>
+                </div>
+                <div *ngIf="!cs.config['isLogin']">
+                    <h2>{{title}}</h2>
+                    <p>Please login first.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

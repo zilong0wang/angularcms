@@ -1,0 +1,16 @@
+.cms-wrapper {
+    padding: 0;
+}
+.left-content {
+    background: #80bdff;
+}
+.right-content {
+    background: #957bbe;
+}
+.sidebar,
+.main {
+    margin: 40px 20px;
+    padding: 30px;
+    background: white;
+    min-height: 300px;
+}
